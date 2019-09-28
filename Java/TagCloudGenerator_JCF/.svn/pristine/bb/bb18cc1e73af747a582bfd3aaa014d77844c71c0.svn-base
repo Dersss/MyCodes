@@ -1,0 +1,324 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.Serializable;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+import components.sortingmachine.SortingMachine;
+import components.sortingmachine.SortingMachine1L;
+
+/**
+ * A program that takes a user input file, counts the occurences of each word,
+ * and created an HTML file with a TAG WORD CLOUD.
+ *
+ * @author Andrew Schneider
+ * @author Eric Sullivan
+ * @author hitesh
+ *
+ */
+
+public final class JCFTag {
+
+    /**
+     * Useful constants.
+     */
+    public static final int FOUR = 4;
+    /**
+     * Useful constants.
+     */
+    public static final int ELEVEN = 11;
+    /**
+     * Useful constants.
+     */
+    public static final int FORTY_EIGHT = 48;
+    /**
+     * Useful constants.
+     */
+    public static final int FIVE = 5;
+
+    /**
+     *
+     * Sorts the map by integer values.
+     *
+     */
+    private static class EntryVLT
+            implements Serializable, Comparator<Map.Entry<String, Integer>> {
+
+        @Override
+        public int compare(Map.Entry<String, Integer> mp1,
+                Map.Entry<String, Integer> mp2) {
+            return mp2.getValue().compareTo(mp1.getValue());
+        }
+    }
+
+    /**
+     *
+     * Sorts the map by string values.
+     *
+     */
+    private static class EntrySLT
+            implements Serializable, Comparator<Map.Entry<String, Integer>> {
+
+        @Override
+        public int compare(Map.Entry<String, Integer> mp3,
+                Map.Entry<String, Integer> mp4) {
+            return mp3.getKey().toLowerCase()
+                    .compareTo(mp4.getKey().toLowerCase());
+        }
+    }
+
+    /**
+     * Separates tokens words and separators from input line
+     *
+     * @param line
+     *            the line to be broken up
+     * @param pos
+     *            current position within the line
+     * @param separators
+     *            separator characters
+     * @return
+     */
+    public static String nextWordOrSeparator(String line, int pos,
+            Set<Character> separators) {
+        String word = "";
+        int index = pos;
+        boolean tokenCapture = false;
+
+        while (index < line.length() && !tokenCapture) {
+            boolean isSeparator = separators.contains(line.charAt(pos));
+            if (isSeparator) {
+                if (separators.contains(line.charAt(index))) {
+                    word += line.charAt(index);
+                } else {
+                    tokenCapture = true;
+                }
+            } else {
+                if (!separators.contains(line.charAt(index))) {
+                    word += line.charAt(index);
+                } else {
+                    tokenCapture = true;
+                }
+            }
+            index++;
+        }
+        return word;
+    }
+
+    /**
+     * Generates separator characters into a set
+     *
+     * @param seps
+     *            characters to be added
+     * @param separators
+     *            set to be added too
+     */
+    public static void createSeparatorSet(String seps,
+            Set<Character> separators) {
+        String keep = "";
+        for (char c : seps.toCharArray()) {
+            if (keep.indexOf(c) == -1) {
+                separators.add(c);
+                keep += c;
+            }
+        }
+    }
+
+    /**
+     * Sorts loaded map and prints correct output to HTML.
+     *
+     * @param map
+     *            map containing words
+     * @param size
+     *            size of word cloud to be generated
+     * @param outFile
+     *            output file
+     * @param inFile
+     *            input file
+     */
+    public static void sortToSizeAndPrint(Map<String, Integer> map, int size,
+            String outFile, String inFile) {
+
+        Map<String, Integer> toSizeMap = new HashMap<>();
+        Comparator<Map.Entry<String, Integer>> ci = new EntryVLT();
+        SortingMachine<Map.Entry<String, Integer>> si = new SortingMachine1L<>(
+                ci);
+
+        for (Map.Entry<String, Integer> mP : map.entrySet()) {
+            Map.Entry<String, Integer> holder = mP;
+            si.add(holder);
+        }
+        si.changeToExtractionMode();
+        int loadSize = 0;
+        int avg = 0;
+        while (loadSize < size) {
+            Map.Entry<String, Integer> pair = si.removeFirst();
+            toSizeMap.put(pair.getKey(), pair.getValue());
+            avg += pair.getValue();
+            loadSize++;
+        }
+
+        Collection<Integer> vals = toSizeMap.values();
+        Comparator<Map.Entry<String, Integer>> cs = new EntrySLT();
+        SortingMachine<Map.Entry<String, Integer>> ss = new SortingMachine1L<>(
+                cs);
+
+        for (Map.Entry<String, Integer> mP2 : toSizeMap.entrySet()) {
+            Map.Entry<String, Integer> holder = mP2;
+            ss.add(holder);
+        }
+        ss.changeToExtractionMode();
+        createHTML(outFile, inFile, size, ss, vals);
+
+    }
+
+    /**
+     * Creates HTML file for terms
+     *
+     * @param outFile
+     *            output file
+     * @param inFile
+     *            input file
+     * @param size
+     *            size of word cloud to be generated
+     * @param terms
+     *            words to be printed
+     */
+    public static void createHTML(String outFile, String inFile, int size,
+            SortingMachine<Map.Entry<String, Integer>> terms,
+            Collection<Integer> values) {
+
+        try {
+            PrintWriter printWrite = new PrintWriter(
+                    new BufferedWriter(new FileWriter(outFile)));
+
+            printWrite.println("<html>");
+            printWrite.println("<head>");
+            printWrite.println("<title> Word Cloud of top " + size
+                    + " words in " + outFile + "</title>");
+            printWrite.println(
+                    "<link href=\"http://cse.osu.edu/software/2231/web-sw2/assignments/projects/tag-cloud-generator/data/tagcloud.css\" rel=\"stylesheet\" type=\"text/css\"");
+
+            printWrite.println("</head>");
+            printWrite.println("<body>");
+            printWrite.println("<h1> Word Cloud of top " + size + " words in "
+                    + inFile + "</h1>");
+            printWrite.println("<hr>");
+            printWrite.println("<div class=\"cdiv\">");
+            printWrite.println("<p class=\"cbox\">");
+            int average = 0;
+            for (int i : values) {
+                average += i;
+            }
+
+            average /= size;
+            int index = 0;
+
+            while (terms.size() > 0) {
+                //        for (Map.Pair<String, Integer> m : sort) {
+                Map.Entry<String, Integer> m = terms.removeFirst();
+                printWrite.print("<span style=\"cursor:default\" class=\"f");
+
+                double percentage = (double) (m.getValue() * FIVE) / average;
+
+                percentage += ELEVEN;
+
+                if (percentage > FORTY_EIGHT) {
+                    percentage = FORTY_EIGHT;
+                } else if (percentage < ELEVEN) {
+                    percentage = ELEVEN;
+                }
+
+                printWrite.println((int) percentage);
+                printWrite.println("\" title=\"count: ");
+                printWrite
+                        .println(m.getValue() + "\">" + m.getKey() + "</span>");
+                index++;
+            }
+            printWrite.println("</p>");
+            printWrite.println("</div>");
+
+            printWrite.println("</body>");
+
+            printWrite.println("</html>");
+            printWrite.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    /**
+     * Main method.
+     *
+     * @param args
+     *            the command line arguments
+     * @throws FileNotFoundException
+     */
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner in = new Scanner(System.in);
+        System.out.print(
+                "Please enter the name of a file to generate word cloud for: ");
+        String userFile = in.nextLine();
+        System.out.print(
+                "Please enter the name of an output file (including .html): ");
+        String outFile = in.nextLine();
+        System.out.print(
+                "Please enter number of words to be included in cloud: ");
+        int cloudSize = in.nextInt();
+
+        String line = null;
+        final String separatorChars = "\"'*,.:_?;!-()/\'][1234567890 ";
+        Set<Character> separators = new HashSet<>();
+        createSeparatorSet(separatorChars, separators);
+        Map<String, Integer> loadedMap = new HashMap<>();
+
+        try {
+
+            BufferedReader buffRead = new BufferedReader(
+                    new FileReader(userFile));
+            while ((line = buffRead.readLine()) != null) {
+                int position = 0;
+                while (position < line.length()) {
+                    String token = nextWordOrSeparator(line, position,
+                            separators);
+                    position += token.length();
+                    if (!separators.contains(token.charAt(0))) {
+                        if (loadedMap.containsKey(token)) {
+                            int value = loadedMap.get(token);
+                            loadedMap.put(token, value + 1);
+                        } else {
+                            loadedMap.put(token, 1);
+                        }
+                    }
+                }
+
+            }
+
+            buffRead.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Unable to open the file " + userFile);
+        } catch (IOException e) {
+            System.out.println("Unable to read the file " + userFile);
+        }
+        while (cloudSize > loadedMap.size() || cloudSize == 0) {
+            System.out.println(
+                    "The number of words is more than the size of the Map ("
+                            + loadedMap.size() + ") or is zero.");
+            System.out.print("Please enter a number within the domain: ");
+            cloudSize = in.nextInt();
+
+        }
+        sortToSizeAndPrint(loadedMap, cloudSize, outFile, userFile);
+        in.close();
+    }
+}

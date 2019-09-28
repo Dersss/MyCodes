@@ -1,0 +1,6 @@
+PROGRAM Test IS
+BEGIN
+	WHILE next-is-empty DO
+		move
+	WHILE
+END Test

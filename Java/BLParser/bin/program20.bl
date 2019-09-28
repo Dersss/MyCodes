@@ -1,0 +1,9 @@
+PROGRAM Test IS
+	INSTRUCTION valid IS
+		IF next-is-empty THEN
+			move
+		END IF
+	END valid
+BEGIN
+	valid
+END Test

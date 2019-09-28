@@ -1,0 +1,34 @@
+PROGRAM SampleProgram IS
+
+    INSTRUCTION FindObstacle IS
+        WHILE next-is-empty DO
+            move
+        END WHILE
+    END FindObstacle
+
+    INSTRUCTION TurnAround IS
+        turnright
+        turnright
+    END TurnAround
+    
+    INSTRUCTION Never IS
+        skip
+    END Never
+
+BEGIN
+    WHILE true DO
+        FindObstacle
+        IF next-is-enemy THEN
+            infect
+        ELSE
+            IF next-is-wall THEN
+                turnleft
+            ELSE
+                IF next-is-friend THEN
+                    turnright
+                END IF
+                TurnAround
+            END IF
+        END IF
+    END WHILE
+END SampleProgram

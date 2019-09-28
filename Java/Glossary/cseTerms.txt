@@ -1,0 +1,107 @@
+DesignByContract
+describes the behavior between the client and implement, 
+where each has the responsibility to meet the precondition and postcondition, 
+respectively, and the client and implement can assume the postcondition and precondition is met, 
+respectively, when the method is called/returned
+
+Precondition
+sets responsibilities of the client calling a method to meet in order for the 
+implementation to return an appropriate result
+
+Postcondition
+sets responsibilities of the method to return an appropriate result to the client code
+
+Testing
+technique for trying to disprove that a method body is correct for the method contract; 
+goal is to show that the method body does not correctly implement the contract
+
+Debugging
+technique for trying to fix and repair bugs and defects in code so that 
+the method correctly returns all appropriate values
+
+ParameterMode
+summarize in a method contract a way that a method might change the value of 
+the corresponding argument
+
+Clears
+returns value that does not equal the initial value
+
+Replaces
+replaces incoming value with another value specified by the method body, 
+outgoing value does not depend on the method's behavior
+
+Restores
+upon return from a method call, the outgoing value equals the original value
+
+Updates
+incoming value altered with another value specified by the method body, 
+outgoing value does depend on the method's behavior
+
+ImmutableTypes
+no method can change the value of the receiver, the value of the variable cannot be changed
+
+PrimitiveTypes
+Basic value variables like boolean, char, byte, short, int, long, float, and double
+
+ReferenceTypes
+fundamentally different from primitive as the values are stored in a memory address, 
+reference value si created to reference the memory address where the object value is stored
+
+Object
+where the variable's value is stored, created for only reference types
+
+Aliasing
+when a reference type is mutable, two reference types point to the same object, 
+so when one reference changes the value, the Object will change for both references
+
+StaticType
+name of the interface/class clearing a variable, so NaturalNumber in NaturalNumber k = new NaturalNumber2()
+Declared Type
+
+ObjectType
+name of the constructor from which a variable is instantiated, so NaturalNumber2 in NaturalNumber k = new NaturalNumber2()
+Dynamic Type
+
+Implements
+relation held between a class and an interface where the class contains code for 
+the behavior specified in the interface, 
+can separate contracts from implementations, only instance methods
+
+Extends
+relation held between two interfaces or two classes, if one inherits another, 
+the first inherits all the methods of the other
+
+MethodOverriding
+rewrite the method body of a class
+
+Subinterface
+refers to the interface that extends another
+
+SuperInterface
+refers to the interface that is being extended compared to another
+
+Polymorphism
+when there are multiple methods with the same name, 
+the method that will be called is the one made from the class from which the constructor is called
+
+Recursion
+calling a method in itself to achieve repetition in minimal lines of code
+
+RSS
+a textual format used on the web for feeds that are frequently updated, must have title, 
+link, and description, zero or more item children
+ 
+Constructors
+same as the name of the implementation class, four for each class, used to initialize
+
+NoArgumentConsructor
+a constructor with no parameters
+
+CopyConstructor
+constructor with one parameter of the same type
+
+JUnit
+industry-standard "framework" for testing Java code
+
+MethodOverloading
+when two or more methods have the same name, in which case the methods must differ in the number different purposes and/or types of their formal parameters

@@ -1,0 +1,23 @@
+alpha
+phonetic alphabet term before bravo.
+
+bravo
+phonetic alphabet term after alpha and before charlie.
+
+charlie
+phonetic alphabet term after bravo and before delta.
+
+delta
+phonetic alphabet term after charlie and before echo.
+
+echo
+phonetic alphabet term after delta and before foxtrot.
+
+foxtrot
+phonetic alphabet term after echo and before golf.
+
+golf
+phonetic alphabet term after foxtrot and before hotel.
+
+hotel
+phonetic alphabet term after golf.

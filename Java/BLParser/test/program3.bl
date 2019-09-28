@@ -1,0 +1,9 @@
+PROGRAM Test IS
+	INSTRUCTION invalid IS
+		WHILE this-is-not-a-valid-condition DO
+			move
+		END WHILE
+	END invalid
+BEGIN
+	invalid
+END Test

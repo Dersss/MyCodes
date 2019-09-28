@@ -1,0 +1,242 @@
+<channel>
+  <title>www.espn.com - NFL</title>
+  <description>Latest NFL news from www.espn.com</description>
+  <link>http://www.espn.com</link>
+  <ttl>30</ttl>
+  <language>en</language>
+  <generator>ESPN Inc. http://www.espn.com</generator>
+  <copyright>Copyright 2015 ESPN Inc.</copyright>
+  <lastBuildDate>Tue, 12 Sep 2017 19:24:31 GMT</lastBuildDate>
+  <image>
+    <url>http://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif</url>
+    <title>www.espn.com - NFL</title>
+    <link>http://www.espn.com</link>
+    <width>110</width>
+    <height>110</height>
+  </image>
+  <item>
+    <title>What we learned (and didn't learn) in Week 1: Which defenses are for real?</title>
+    <description>What we learned (and didn't learn) in Week 1: Which defenses are for real?</description>
+    <link>http://www.espn.com/nfl/story/_/id/20675266/what-learned-learn-week-1-2017-nfl-season-which-defenses-real</link>
+    <pubDate>Mon, 11 Sep 2017 21:26:24 EST</pubDate>
+    <guid isPermaLink="false">20675266</guid>
+  </item>
+  <item>
+    <title>Source: Cardinals RB Johnson out 2-3 months</title>
+    <description>Source: Cardinals RB Johnson out 2-3 months</description>
+    <link>http://www.espn.com/nfl/story/_/id/20682034/arizona-cardinals-running-back-david-johnson-having-wrist-surgery-miss-2-3-months</link>
+    <pubDate>Tue, 12 Sep 2017 11:57:20 EST</pubDate>
+    <guid isPermaLink="false">20682034</guid>
+  </item>
+  <item>
+    <title>Tomlin: Bell will improve; penalties to blame</title>
+    <description>Tomlin: Bell will improve; penalties to blame</description>
+    <link>http://www.espn.com/nfl/story/_/id/20683147/pittsburgh-steelers-coach-mike-tomlin-assures-leveon-bell-get-better</link>
+    <pubDate>Tue, 12 Sep 2017 13:38:08 EST</pubDate>
+    <guid isPermaLink="false">20683147</guid>
+  </item>
+  <item>
+    <title>Ex-CB Browner charged with felony in L.A.</title>
+    <description>Ex-CB Browner charged with felony in L.A.</description>
+    <link>http://www.espn.com/nfl/story/_/id/20684121/ex-cb-brandon-browner-charged-felony-los-angeles</link>
+    <pubDate>Tue, 12 Sep 2017 15:17:58 EST</pubDate>
+    <guid isPermaLink="false">20684121</guid>
+  </item>
+  <item>
+    <title>Steelers' Tomlin: 'Light on' for Tuitt return Sun.</title>
+    <description>Steelers' Tomlin: 'Light on' for Tuitt return Sun.</description>
+    <link>http://www.espn.com/nfl/story/_/id/20683303/stephon-tuitt-pittsburgh-steelers-avoids-major-biceps-injury</link>
+    <pubDate>Tue, 12 Sep 2017 13:51:33 EST</pubDate>
+    <guid isPermaLink="false">20683303</guid>
+  </item>
+  <item>
+    <title>Eagles sign K Elliott off Bengals practice squad</title>
+    <description>Eagles sign K Elliott off Bengals practice squad</description>
+    <link>http://www.espn.com/nfl/story/_/id/20683712/rookie-kicker-jake-elliott-signed-philadelphia-eagles</link>
+    <pubDate>Tue, 12 Sep 2017 14:43:36 EST</pubDate>
+    <guid isPermaLink="false">20683712</guid>
+  </item>
+  <item>
+    <title>Bucs make call to host Bears in Tampa on Sun.</title>
+    <description>Bucs make call to host Bears in Tampa on Sun.</description>
+    <link>http://www.espn.com/nfl/story/_/id/20680772/tampa-bay-buccaneers-host-chicago-bears-sunday-wake-hurricane-irma</link>
+    <pubDate>Tue, 12 Sep 2017 09:32:22 EST</pubDate>
+    <guid isPermaLink="false">20680772</guid>
+  </item>
+  <item>
+    <title>Week 2 NFL Power Rankings: Overreaction edition</title>
+    <description>Week 2 NFL Power Rankings: Overreaction edition</description>
+    <link>http://www.espn.com/nfl/story/_/page/NFLpowerrankingsx170912/nfl-2017-week-2-power-rankings-overreaction-edition-pittsburgh-steelers-green-bay-packers-kansas-city-chiefs-make-early-moves</link>
+    <pubDate>Tue, 12 Sep 2017 09:16:50 EST</pubDate>
+    <guid isPermaLink="false">NFLpowerrankingsx170912</guid>
+  </item>
+  <item>
+    <title>NFL's best and worst QBs of Week 1</title>
+    <description>NFL's best and worst QBs of Week 1</description>
+    <link>http://www.espn.com/espn/feature/story/_/id/20672984/nfl-best-worst-quarterbacks-week-1-2017</link>
+    <pubDate>Tue, 12 Sep 2017 08:42:45 EST</pubDate>
+    <guid isPermaLink="false">20672984</guid>
+  </item>
+  <item>
+    <title>Barnwell: Separating fact from fiction on Week 1's volatile QB performances</title>
+    <description>Barnwell: Separating fact from fiction on Week 1's volatile QB performances</description>
+    <link>http://www.espn.com/nfl/story/_/page/Barnwellx170911/nfl-week-1-qb-performances-continue-end</link>
+    <pubDate>Mon, 11 Sep 2017 23:35:40 EST</pubDate>
+    <guid isPermaLink="false">Barnwellx170911</guid>
+  </item>
+  <item>
+    <title>Full list of Week 2 NFL lines</title>
+    <description>Full list of Week 2 NFL lines</description>
+    <link>http://www.espn.com/chalk/story/_/id/20663439/nfl-full-list-week-2-odds-westgate-las-vegas-superbook</link>
+    <pubDate>Sun, 10 Sep 2017 20:01:23 EST</pubDate>
+    <guid isPermaLink="false">20663439</guid>
+  </item>
+  <item>
+    <title>Fantasy intel for all 32 teams ahead of Week 2</title>
+    <description>Fantasy intel for all 32 teams ahead of Week 2</description>
+    <link>http://www.espn.com/fantasy/football/story/_/id/20673259/fantasy-football-fantasy-intel-all-32-teams-ahead-week-2-including-thoughts-kelvin-benjamin-eddie-lacy-adrian-peterson</link>
+    <pubDate>Tue, 12 Sep 2017 12:45:13 EST</pubDate>
+    <guid isPermaLink="false">20673259</guid>
+  </item>
+  <item>
+    <title>Fantasy football free-agent finds for Week 2</title>
+    <description>Fantasy football free-agent finds for Week 2</description>
+    <link>http://www.espn.com/fantasy/football/story/_/page/freeagentfinds170912/fantasy-football-free-agent-finds-waiver-wire-pickups-week-2-include-tyrod-taylor-tarik-cohen-some-look-replace-david-johnson</link>
+    <pubDate>Tue, 12 Sep 2017 12:44:52 EST</pubDate>
+    <guid isPermaLink="false">freeagentfinds170912</guid>
+  </item>
+  <item>
+    <title>Post-Irma, Dolphins' biggest Week 2 challenge is staying focused</title>
+    <description>Post-Irma, Dolphins' biggest Week 2 challenge is staying focused</description>
+    <link>http://www.espn.com/blog/miami-dolphins/post/_/id/26229/post-irma-dolphins-biggest-week-2-challenge-is-staying-focused</link>
+    <pubDate>Tue, 12 Sep 2017 15:03:12 EST</pubDate>
+    <guid isPermaLink="false">miami-dolphins-26229</guid>
+  </item>
+  <item>
+    <title>Matthew Stafford showed Sunday he's worth the $135 million payday</title>
+    <description>Matthew Stafford showed Sunday he's worth the $135 million payday</description>
+    <link>http://www.espn.com/blog/detroit-lions/post/_/id/30649/matthew-stafford-showed-sunday-hes-worth-the-135-million-payday</link>
+    <pubDate>Tue, 12 Sep 2017 14:59:48 EST</pubDate>
+    <guid isPermaLink="false">detroit-lions-30649</guid>
+  </item>
+  <item>
+    <title>Numbers say Kirk Cousins must improve under duress</title>
+    <description>Numbers say Kirk Cousins must improve under duress</description>
+    <link>http://www.espn.com/blog/washington-redskins/post/_/id/33076/numbers-say-kirk-cousins-must-improve-under-duress</link>
+    <pubDate>Tue, 12 Sep 2017 15:00:35 EST</pubDate>
+    <guid isPermaLink="false">washington-redskins-33076</guid>
+  </item>
+  <item>
+    <title>Cardinals' playoff hopes now hinge on Carson Palmer</title>
+    <description>Cardinals' playoff hopes now hinge on Carson Palmer</description>
+    <link>http://www.espn.com/blog/arizona-cardinals/post/_/id/27136/cardinals-playoff-hopes-now-hinge-on-carson-palmer</link>
+    <pubDate>Tue, 12 Sep 2017 11:43:59 EST</pubDate>
+    <guid isPermaLink="false">arizona-cardinals-27136</guid>
+  </item>
+  <item>
+    <title>Will Adrian Peterson be odd man out in Saints' backfield?</title>
+    <description>Will Adrian Peterson be odd man out in Saints' backfield?</description>
+    <link>http://www.espn.com/blog/new-orleans-saints/post/_/id/27652/will-adrian-peterson-be-odd-man-out-in-saints-backfield</link>
+    <pubDate>Tue, 12 Sep 2017 10:18:03 EST</pubDate>
+    <guid isPermaLink="false">new-orleans-saints-27652</guid>
+  </item>
+  <item>
+    <title>Adrian Peterson's quiet debut least of Saints' problems after loss to Vikings</title>
+    <description>Adrian Peterson's quiet debut least of Saints' problems after loss to Vikings</description>
+    <link>http://www.espn.com/blog/new-orleans-saints/post/_/id/27630/adrian-petersons-quiet-debut-least-of-saints-problems-after-loss-to-vikings</link>
+    <pubDate>Tue, 12 Sep 2017 01:37:55 EST</pubDate>
+    <guid isPermaLink="false">new-orleans-saints-27630</guid>
+  </item>
+  <item>
+    <title>Trevor Siemian, Broncos' defense do just enough to get opening win</title>
+    <description>Trevor Siemian, Broncos' defense do just enough to get opening win</description>
+    <link>http://www.espn.com/blog/denver-broncos/post/_/id/27979/trevor-siemian-broncos-defense-do-just-enough-to-get-opening-win</link>
+    <pubDate>Tue, 12 Sep 2017 01:40:59 EST</pubDate>
+    <guid isPermaLink="false">denver-broncos-27979</guid>
+  </item>
+  <item>
+    <title>Philip Rivers' late-game comeback falls short in loss to Broncos</title>
+    <description>Philip Rivers' late-game comeback falls short in loss to Broncos</description>
+    <link>http://www.espn.com/blog/los-angeles-chargers/post/_/id/21576/philip-rivers-late-game-comeback-falls-short-in-loss-to-broncos</link>
+    <pubDate>Tue, 12 Sep 2017 01:52:43 EST</pubDate>
+    <guid isPermaLink="false">los-angeles-chargers-21576</guid>
+  </item>
+  <item>
+    <title>Sam Bradford teases us once again -- and someone is going to pay him (again)</title>
+    <description>Sam Bradford teases us once again -- and someone is going to pay him (again)</description>
+    <link>http://www.espn.com/blog/nflnation/post/_/id/248078/sam-bradford-teases-us-once-again-and-someone-is-going-to-pay-him-again</link>
+    <pubDate>Tue, 12 Sep 2017 00:32:40 EST</pubDate>
+    <guid isPermaLink="false">nflnation-248078</guid>
+  </item>
+  <item>
+    <title>Stefon Diggs plays big as Vikings' offense rolls over Saints</title>
+    <description>Stefon Diggs plays big as Vikings' offense rolls over Saints</description>
+    <link>http://www.espn.com/blog/minnesota-vikings/post/_/id/23560/vikings-offense-explodes-in-season-opening-win-over-saints</link>
+    <pubDate>Mon, 11 Sep 2017 22:33:23 EST</pubDate>
+    <guid isPermaLink="false">minnesota-vikings-23560</guid>
+  </item>
+  <item>
+    <title>Dalvin Cook's debut shows why Vikings brought him in to modernize offense</title>
+    <description>Dalvin Cook's debut shows why Vikings brought him in to modernize offense</description>
+    <link>http://www.espn.com/blog/minnesota-vikings/post/_/id/23580/dalvin-cooks-debut-shows-why-vikings-brought-him-in-to-modernize-offense</link>
+    <pubDate>Tue, 12 Sep 2017 07:23:22 EST</pubDate>
+    <guid isPermaLink="false">minnesota-vikings-23580</guid>
+  </item>
+  <item>
+    <title>Best rookie performances of Week 1: T.J. Watt, Dalvin Cook, Kareem Hunt star</title>
+    <description>Best rookie performances of Week 1: T.J. Watt, Dalvin Cook, Kareem Hunt star</description>
+    <link>http://www.espn.com/blog/nflnation/post/_/id/247829/week-1s-best-rookie-performances-t-j-watt-kareem-hunt-leonard-fournette-star</link>
+    <pubDate>Mon, 11 Sep 2017 09:28:30 EST</pubDate>
+    <guid isPermaLink="false">nflnation-247829</guid>
+  </item>
+  <item>
+    <title>Cardinals running backs ready to fill David Johnson's shoes, if needed</title>
+    <description>Cardinals running backs ready to fill David Johnson's shoes, if needed</description>
+    <link>http://www.espn.com/blog/arizona-cardinals/post/_/id/27121/cardinals-running-backs-ready-to-fill-david-johnsons-shoes-if-needed</link>
+    <pubDate>Mon, 11 Sep 2017 20:37:37 EST</pubDate>
+    <guid isPermaLink="false">arizona-cardinals-27121</guid>
+  </item>
+  <item>
+    <title>Biggest surprises from Week 1 in the NFL</title>
+    <description>Biggest surprises from Week 1 in the NFL</description>
+    <link>http://www.espn.com/nfl/story/_/page/32for32x170910/2017-nfl-biggest-surprises-week-1</link>
+    <pubDate>Mon, 11 Sep 2017 09:04:44 EST</pubDate>
+    <guid isPermaLink="false">32for32x170910</guid>
+  </item>
+  <item>
+    <title>Why NFL officials are ejecting players who don't actually throw a punch</title>
+    <description>Why NFL officials are ejecting players who don't actually throw a punch</description>
+    <link>http://www.espn.com/blog/nflnation/post/_/id/247962/why-nfl-officials-are-ejecting-players-who-dont-actually-throw-a-punch</link>
+    <pubDate>Mon, 11 Sep 2017 08:24:44 EST</pubDate>
+    <guid isPermaLink="false">nflnation-247962</guid>
+  </item>
+  <item>
+    <title>Football returns in Houston amid Hurricane Harvey aftermath</title>
+    <description>Football returns in Houston amid Hurricane Harvey aftermath</description>
+    <link>http://www.espn.com/espn/feature/story/_/page/sightsandsounds170910/nfl-nation-sights-sounds-football-returns-houston-hurricane-harvey</link>
+    <pubDate>Sun, 10 Sep 2017 18:54:58 EST</pubDate>
+    <guid isPermaLink="false">sightsandsounds170910</guid>
+  </item>
+  <item>
+    <title>Week 1 fantasy football winners and losers</title>
+    <description>Week 1 fantasy football winners and losers</description>
+    <link>http://www.espn.com/fantasy/football/story/_/page/winner170910/week-1-fantasy-football-winners-losers-rookies-hunt-cohen-fournette-excel-nfl</link>
+    <pubDate>Sun, 10 Sep 2017 19:41:58 EST</pubDate>
+    <guid isPermaLink="false">winner170910</guid>
+  </item>
+  <item>
+    <title>Biggest NFL injuries of Week 1</title>
+    <description>Biggest NFL injuries of Week 1</description>
+    <link>http://www.espn.com/nfl/story/_/id/20657699/biggest-nfl-injuries-week-1</link>
+    <pubDate>Sun, 10 Sep 2017 19:42:06 EST</pubDate>
+    <guid isPermaLink="false">20657699</guid>
+  </item>
+  <item>
+    <title>NFL players who protested during the national anthem in Week 1</title>
+    <description>NFL players who protested during the national anthem in Week 1</description>
+    <link>http://www.espn.com/blog/nflnation/post/_/id/247658/nfl-players-who-protested-during-the-national-anthem-in-week-1</link>
+    <pubDate>Sun, 10 Sep 2017 19:46:48 EST</pubDate>
+    <guid isPermaLink="false">nflnation-247658</guid>
+  </item>
+</channel>
+

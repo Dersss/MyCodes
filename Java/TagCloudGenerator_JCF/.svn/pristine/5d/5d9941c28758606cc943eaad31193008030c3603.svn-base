@@ -1,0 +1,764 @@
+<html>
+<head>
+<title> Word Cloud of top 500 words in data/importance.html</title>
+<link href="http://cse.osu.edu/software/2231/web-sw2/assignments/projects/tag-cloud-generator/data/tagcloud.css" rel="stylesheet" type="text/css"
+</head>
+<body>
+<h1> Word Cloud of top 500 words in data/importance.txt</h1>
+<hr>
+<div class="cdiv">
+<p class="cbox">
+<span style="cursor:default" class="f15
+" title="count: 
+30">A</span>
+<span style="cursor:default" class="f48
+" title="count: 
+385">a</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">able</span>
+<span style="cursor:default" class="f20
+" title="count: 
+65">about</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">absolute</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">absolutely</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">absurd</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">ACT</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">admit</span>
+<span style="cursor:default" class="f13
+" title="count: 
+15">afraid</span>
+<span style="cursor:default" class="f14
+" title="count: 
+25">after</span>
+<span style="cursor:default" class="f13
+" title="count: 
+16">afternoon</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">again</span>
+<span style="cursor:default" class="f13
+" title="count: 
+15">age</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">Ah</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">Ahem</span>
+<span style="cursor:default" class="f48
+" title="count: 
+271">Algernon</span>
+<span style="cursor:default" class="f14
+" title="count: 
+22">Algy</span>
+<span style="cursor:default" class="f24
+" title="count: 
+89">all</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">allow</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">almost</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">already</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">also</span>
+<span style="cursor:default" class="f17
+" title="count: 
+44">always</span>
+<span style="cursor:default" class="f27
+" title="count: 
+108">am</span>
+<span style="cursor:default" class="f19
+" title="count: 
+55">an</span>
+<span style="cursor:default" class="f16
+" title="count: 
+39">And</span>
+<span style="cursor:default" class="f48
+" title="count: 
+249">and</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">anxious</span>
+<span style="cursor:default" class="f21
+" title="count: 
+72">any</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">anybody</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">anything</span>
+<span style="cursor:default" class="f32
+" title="count: 
+143">are</span>
+<span style="cursor:default" class="f25
+" title="count: 
+95">as</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">As</span>
+<span style="cursor:default" class="f13
+" title="count: 
+17">ask</span>
+<span style="cursor:default" class="f33
+" title="count: 
+147">at</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">At</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">attractive</span>
+<span style="cursor:default" class="f14
+" title="count: 
+23">Augusta</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">aunt</span>
+<span style="cursor:default" class="f14
+" title="count: 
+24">Aunt</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">baby</span>
+<span style="cursor:default" class="f15
+" title="count: 
+29">back</span>
+<span style="cursor:default" class="f12
+" title="count: 
+13">bad</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">bag</span>
+<span style="cursor:default" class="f34
+" title="count: 
+158">be</span>
+<span style="cursor:default" class="f21
+" title="count: 
+66">been</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">before</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">beg</span>
+<span style="cursor:default" class="f13
+" title="count: 
+16">being</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">believe</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">Besides</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">better</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">book</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">both</span>
+<span style="cursor:default" class="f12
+" title="count: 
+13">boy</span>
+<span style="cursor:default" class="f30
+" title="count: 
+128">Bracknell</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">bread</span>
+<span style="cursor:default" class="f18
+" title="count: 
+52">brother</span>
+<span style="cursor:default" class="f16
+" title="count: 
+39">Bunbury</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">Bunburying</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">Bunburyist</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">business</span>
+<span style="cursor:default" class="f20
+" title="count: 
+63">But</span>
+<span style="cursor:default" class="f18
+" title="count: 
+51">but</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">butter</span>
+<span style="cursor:default" class="f16
+" title="count: 
+34">by</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">cake</span>
+<span style="cursor:default" class="f13
+" title="count: 
+15">call</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">called</span>
+<span style="cursor:default" class="f19
+" title="count: 
+57">can</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">cannot</span>
+<span style="cursor:default" class="f15
+" title="count: 
+30">Cardew</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">care</span>
+<span style="cursor:default" class="f14
+" title="count: 
+21">case</span>
+<span style="cursor:default" class="f48
+" title="count: 
+256">Cecily</span>
+<span style="cursor:default" class="f13
+" title="count: 
+16">certainly</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">Certainly</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">character</span>
+<span style="cursor:default" class="f20
+" title="count: 
+63">Chasuble</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">child</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">chill</span>
+<span style="cursor:default" class="f13
+" title="count: 
+17">christened</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">Christian</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">cigarette</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">clever</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">Come</span>
+<span style="cursor:default" class="f14
+" title="count: 
+21">come</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">consent</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">cough</span>
+<span style="cursor:default" class="f14
+" title="count: 
+21">could</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">couldn</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">country</span>
+<span style="cursor:default" class="f15
+" title="count: 
+30">course</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">cousin</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">darling</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">day</span>
+<span style="cursor:default" class="f19
+" title="count: 
+59">dear</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">death</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">diary</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">did</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">die</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">dine</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">dinner</span>
+<span style="cursor:default" class="f21
+" title="count: 
+66">do</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">Do</span>
+<span style="cursor:default" class="f14
+" title="count: 
+23">does</span>
+<span style="cursor:default" class="f22
+" title="count: 
+76">don</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">doubt</span>
+<span style="cursor:default" class="f15
+" title="count: 
+29">down</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">Dr</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">duty</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">each</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">earth</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">eat</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">eating</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">either</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">else</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">end</span>
+<span style="cursor:default" class="f14
+" title="count: 
+20">engaged</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">engagement</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">enough</span>
+<span style="cursor:default" class="f15
+" title="count: 
+32">Enter</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">entirely</span>
+<span style="cursor:default" class="f23
+" title="count: 
+82">Ernest</span>
+<span style="cursor:default" class="f13
+" title="count: 
+17">even</span>
+<span style="cursor:default" class="f15
+" title="count: 
+30">ever</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">every</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">exactly</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">except</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">expected</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">extremely</span>
+<span style="cursor:default" class="f15
+" title="count: 
+29">fact</span>
+<span style="cursor:default" class="f14
+" title="count: 
+23">Fairfax</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">far</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">father</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">feel</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">fellow</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">few</span>
+<span style="cursor:default" class="f14
+" title="count: 
+22">first</span>
+<span style="cursor:default" class="f13
+" title="count: 
+15">five</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">fond</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">For</span>
+<span style="cursor:default" class="f31
+" title="count: 
+136">for</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">forgive</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">found</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">friend</span>
+<span style="cursor:default" class="f17
+" title="count: 
+43">from</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">From</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">garden</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">gentleman</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">German</span>
+<span style="cursor:default" class="f13
+" title="count: 
+16">get</span>
+<span style="cursor:default" class="f13
+" title="count: 
+19">girl</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">give</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">given</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">glad</span>
+<span style="cursor:default" class="f15
+" title="count: 
+28">go</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">Goes</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">goes</span>
+<span style="cursor:default" class="f13
+" title="count: 
+15">going</span>
+<span style="cursor:default" class="f15
+" title="count: 
+27">good</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">Good</span>
+<span style="cursor:default" class="f13
+" title="count: 
+16">got</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">great</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">guardian</span>
+<span style="cursor:default" class="f37
+" title="count: 
+178">Gwendolen</span>
+<span style="cursor:default" class="f20
+" title="count: 
+61">had</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">half</span>
+<span style="cursor:default" class="f16
+" title="count: 
+33">hand</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">hands</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">hard</span>
+<span style="cursor:default" class="f13
+" title="count: 
+17">hardly</span>
+<span style="cursor:default" class="f21
+" title="count: 
+72">has</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">hate</span>
+<span style="cursor:default" class="f41
+" title="count: 
+202">have</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">haven</span>
+<span style="cursor:default" class="f20
+" title="count: 
+64">he</span>
+<span style="cursor:default" class="f15
+" title="count: 
+30">He</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">head</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">health</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">hear</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">heard</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">heartless</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">heavens</span>
+<span style="cursor:default" class="f24
+" title="count: 
+86">her</span>
+<span style="cursor:default" class="f15
+" title="count: 
+31">here</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">herself</span>
+<span style="cursor:default" class="f16
+" title="count: 
+39">him</span>
+<span style="cursor:default" class="f21
+" title="count: 
+66">his</span>
+<span style="cursor:default" class="f13
+" title="count: 
+17">hope</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">hour</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">house</span>
+<span style="cursor:default" class="f13
+" title="count: 
+18">How</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">how</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">However</span>
+<span style="cursor:default" class="f48
+" title="count: 
+831">I</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">idea</span>
+<span style="cursor:default" class="f20
+" title="count: 
+62">if</span>
+<span style="cursor:default" class="f13
+" title="count: 
+19">If</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">important</span>
+<span style="cursor:default" class="f48
+" title="count: 
+274">in</span>
+<span style="cursor:default" class="f16
+" title="count: 
+33">In</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">Indeed</span>
+<span style="cursor:default" class="f12
+" title="count: 
+12">indeed</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">interested</span>
+<span style="cursor:default" class="f15
+" title="count: 
+30">into</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">invalid</span>
+<span style="cursor:default" class="f48
+" title="count: 
+403">is</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">Is</span>
+<span style="cursor:default" class="f13
+" title="count: 
+16">isn</span>
+<span style="cursor:default" class="f39
+" title="count: 
+185">it</span>
+<span style="cursor:default" class="f26
+" title="count: 
+99">It</span>
+<span style="cursor:default" class="f48
+" title="count: 
+289">Jack</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">John</span>
+<span style="cursor:default" class="f14
+" title="count: 
+20">just</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">keep</span>
+<span style="cursor:default" class="f14
+" title="count: 
+21">kind</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">knew</span>
+<span style="cursor:default" class="f19
+" title="count: 
+56">know</span>
+<span style="cursor:default" class="f30
+" title="count: 
+128">Lady</span>
+<span style="cursor:default" class="f12
+" title="count: 
+11">lady</span>
+<span style="cursor:default" class="f18
+" title="count: 
+48">Lane</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">large</span>
+<span style="cursor:default" class="f14
+" title="count: 
+21">last</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">leave</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">left</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">let</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">letters</span>
+<span style="cursor:default" class="f15
+" title="count: 
+30">life</span>
+<span style="cursor:default" class="f18
+" title="count: 
+49">like</span>
+<span style="cursor:default" class="f16
+" title="count: 
+34">little</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">live</span>
+<span style="cursor:default" class="f12
+" title="count: 
+13">ll</span>
+<span style="cursor:default" class="f12
+" title="count: 
+13">London</span>
+<span style="cursor:default" class="f12
+" title="count: 
+13">long</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">look</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">looking</span>
+<span style="cursor:default" class="f14
+" title="count: 
+22">looks</span>
+<span style="cursor:default" class="f12
+" title="count: 
+7">Lord</span>
+<span style="cursor:default" class="f11
+" title="count: 
+6">lost</span>
+<span style="cursor:default" class="f14
+" title="count: 
+23">love</span>
+<span style="cursor:default" class="f13
+" title="count: 
+14">m</span>
+<span style="cursor:default" class="f12
+" title="count: 
+8">made</span>
+<span style="cursor:default" class="f13
+" title="count: 
+17">make</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">makes</span>
+<span style="cursor:default" class="f12
+" title="count: 
+9">mamma</span>
+<span style="cursor:default" class="f15
+" title="count: 
+29">man</span>
+<span style="cursor:default" class="f12
+" title="count: 
+10">manner</span>
+</p>
+</div>
+</body>
+</html>

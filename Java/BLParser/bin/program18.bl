@@ -1,0 +1,7 @@
+PROGRAM Test IS
+	INSTRUCTION valid IS
+		infect
+	END valid
+BEGIN
+	valid
+END Test

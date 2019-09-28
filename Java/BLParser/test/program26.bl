@@ -1,0 +1,12 @@
+PROGRAM Test IS
+	INSTRUCTION valid IS
+		WHILE next-is-empty DO
+			move
+			IF next-is-empty THEN
+				move
+			END IF
+		END WHILE
+	END valid
+BEGIN
+	valid
+END Test

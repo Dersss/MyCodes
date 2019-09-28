@@ -1,0 +1,3 @@
+WHILE this-is-not-a-valid-condition DO
+	move
+END WHILE

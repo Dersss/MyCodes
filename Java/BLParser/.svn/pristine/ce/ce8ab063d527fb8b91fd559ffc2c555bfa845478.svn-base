@@ -1,0 +1,6 @@
+WHILE next-is-empty DO
+<<<<<<< .mine
+	move
+WHILE=======
+    this-is-not-a-valid-block
+END WHILE>>>>>>> .r123

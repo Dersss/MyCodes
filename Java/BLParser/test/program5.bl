@@ -1,0 +1,6 @@
+PROGRAM Test IS
+BEGIN
+	WHILE this-is-not-a-valid-condition DO
+		move
+	END WHILE
+END Test

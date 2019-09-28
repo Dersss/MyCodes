@@ -1,0 +1,201 @@
+<html>
+
+    <head>
+        <style>
+        body {
+            margin : 40px;
+            top : 40px;
+            padding : 40px;
+        }
+        </style>
+    </head>
+    <body>
+        <canvas id = "myCanvas", width="400", height="400"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+    
+        <script>
+            var started = false;
+var level2 = false;
+var height2 = 100
+var frame = 100;
+var score = 0;
+var random2 = 0;
+var randomSize = 0;
+
+var random3 = Math.floor(Math.random() * 600);
+var random4 = Math.floor(Math.random() * 600);
+var sizeX = 1;
+var sizeY = 1;
+var goleft = false;
+
+var stars = [];
+var scoreLvl2 = 0;
+var speed;
+
+
+
+
+function setup() {
+	createCanvas(600, 600);
+	stroke(0, 255, 0);
+	frameRate(100);
+	for (var i = 0; i < 800; i++) {
+		stars[i] = new Star();
+	}
+}
+
+
+function draw() {
+	background(0);
+	if (started && !level2) {
+		firstStage();
+	} else if (started && level2) {
+		speed = map(100, 0, width, 0, 50);
+		textSize(20);
+		text("Score: " + scoreLvl2, 280, 25);
+		translate(width / 2, height / 2);
+		for (var it = 0; it < stars.lenth; it++) {
+			stars[it].update();
+			stars[it].show();
+			// Scoring ??
+			// if (mouseIsPressed) {
+			// 	if (mouseX <= stars[i].x + 10 &&
+			// 		mouseX >= stars[i].x - 10 && mouseY <= stars[i].y + 10 &&
+			// 		mouseY >= stars[i].y - 10) {
+			// 			stars[i].scored = true;
+			// 			score++;
+			// 	}
+			// }
+			//
+		}
+	} else {
+		processNewWindow();
+		register();
+	}
+
+}
+
+function processNewWindow() {
+	background(0);
+
+	textSize(32);
+	text("Ball Game Folks",  170, 250);
+    text("Click on moving ball to gain points", 68, 320);
+	fill(0, 200, 200);
+
+	textSize(24);
+	text("Start", 170, 400);
+	fill(0, 200, 200);
+
+	textSize(24);
+	text("Exit", 380, 400);
+	fill(0, 200, 200);
+}
+
+function startGame() {
+	resizeCanvas(600, 600);
+}
+
+
+
+function Star() {
+  this.x = random(-width, width);
+  this.y = random(-height, height);
+  this.z = random(width);
+  this.pz = this.z;
+  this.scored = false;
+
+  this.update = function() {
+    this.z = this.z - speed;
+    if (this.z < 1) {
+      this.z = width;
+      this.x = random(-width, width);
+      this.y = random(-height, height);
+      this.pz = this.z;
+    }
+  }
+
+  this.show = function() {
+    fill(255);
+    noStroke();
+
+    var sx = map(this.x / this.z, 0, 1, 0, width);
+    var sy = map(this.y / this.z, 0, 1, 0, height);
+
+    var r = map(this.z, 0, width, 16, 0);
+    ellipse(sx, sy, r, r);
+		// if (this.scored == true) {
+		// 	fill(0, 255, 0);
+		// }
+		// var num = 0;
+    
+
+    var px = map(this.x / this.pz, 0, 1, 0, width);
+    var py = map(this.y / this.pz, 0, 1, 0, height);
+
+    this.pz = this.z;
+
+    stroke(255);
+    line(px, py, sx, sy);
+
+  }
+}
+
+function register() {
+	if (mouseIsPressed) {
+		if (mouseX < 300 && mouseY > 350) {
+			print(mouseIsPressed);
+			started = true;
+			startGame();
+		} else if (mouseX > 300 && mouseY > 350) {
+			print(mouseIsPressed);
+		}
+	}
+}
+
+function firstStage() {
+	var index = 0;
+
+	height2 = height2 - 10;
+	if (height2 < 0) {
+		height2 = height;
+		random2 = Math.floor(Math.random() * 400);
+		randomSize = Math.floor(Math.random() * 50);
+
+	}
+	textSize(20);
+	text('Score: ' + score, 240, 25);
+	ellipse(random2, height2, randomSize, randomSize);
+	if (mouseIsPressed) {
+		print("Pressed");
+		frame = 30;
+		height2 += 8;
+
+		fill(0, 255, 0);
+		line(mouseX - 50, mouseY - 50, mouseX - 50, mouseY + 50);
+		line(mouseX + 50, mouseY - 50, mouseX + 50, mouseY + 50);
+		line(mouseX - 50, mouseY + 50, mouseX + 50, mouseY + 50);
+		line(mouseX - 50, mouseY - 50, mouseX + 50, mouseY - 50);
+		if ((mouseY + 50) > height2 && (mouseY - 50) < height2 &&
+			(mouseX + 50) > random2 && (mouseX - 50) < random2) {
+			score++;
+			textSize(25);
+			text('Score Zone', 240, 500);
+		} else {
+			score--;
+			textSize(25);
+			text('Losing Points', 240, 500);
+		}
+	}
+
+	if (score > 500) {
+		level2 = true;
+		resizeCanvas(600, 600);
+		
+	}
+	print(mouseIsPressed);
+}
+
+        </script>
+    </body>
+</html>

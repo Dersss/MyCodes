@@ -1,0 +1,6 @@
+PROGRAM Test IS
+BEGIN
+	IF next-is-empty
+		move
+	END IF
+END Test

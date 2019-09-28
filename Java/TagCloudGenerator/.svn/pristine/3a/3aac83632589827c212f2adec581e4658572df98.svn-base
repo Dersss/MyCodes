@@ -1,0 +1,114 @@
+<html>
+<head>
+<title> Word Cloud of top 100 words in data/poe.txt</title>
+<link href="http://cse.osu.edu/software/2231/web-sw2/assignments/projects/tag-cloud-generator/data/tagcloud.css" rel="stylesheet" type="text/css"
+</head>
+<body>
+<h1> Word Cloud of top 100 words in data/poe.txt</h1>
+<hr>
+<div class="cdiv">
+<p class="cbox">
+<span style="cursor:default" class="f32" title="count: 2069">a</span>
+<span style="cursor:default" class="f12" title="count: 189">about</span>
+<span style="cursor:default" class="f14" title="count: 364">all</span>
+<span style="cursor:default" class="f14" title="count: 352">an</span>
+<span style="cursor:default" class="f35" title="count: 2397">and</span>
+<span style="cursor:default" class="f13" title="count: 248">any</span>
+<span style="cursor:default" class="f13" title="count: 262">are</span>
+<span style="cursor:default" class="f18" title="count: 682">as</span>
+<span style="cursor:default" class="f18" title="count: 718">at</span>
+<span style="cursor:default" class="f16" title="count: 537">be</span>
+<span style="cursor:default" class="f15" title="count: 392">been</span>
+<span style="cursor:default" class="f12" title="count: 109">before</span>
+<span style="cursor:default" class="f12" title="count: 111">being</span>
+<span style="cursor:default" class="f12" title="count: 136">But</span>
+<span style="cursor:default" class="f15" title="count: 399">but</span>
+<span style="cursor:default" class="f17" title="count: 633">by</span>
+<span style="cursor:default" class="f13" title="count: 218">could</span>
+<span style="cursor:default" class="f12" title="count: 126">first</span>
+<span style="cursor:default" class="f17" title="count: 577">for</span>
+<span style="cursor:default" class="f12" title="count: 149">found</span>
+<span style="cursor:default" class="f16" title="count: 495">from</span>
+<span style="cursor:default" class="f12" title="count: 124">great</span>
+<span style="cursor:default" class="f16" title="count: 537">had</span>
+<span style="cursor:default" class="f12" title="count: 186">has</span>
+<span style="cursor:default" class="f17" title="count: 604">have</span>
+<span style="cursor:default" class="f12" title="count: 127">He</span>
+<span style="cursor:default" class="f14" title="count: 378">he</span>
+<span style="cursor:default" class="f13" title="count: 219">her</span>
+<span style="cursor:default" class="f13" title="count: 213">him</span>
+<span style="cursor:default" class="f16" title="count: 511">his</span>
+<span style="cursor:default" class="f12" title="count: 108">however</span>
+<span style="cursor:default" class="f23" title="count: 1240">I</span>
+<span style="cursor:default" class="f12" title="count: 145">if</span>
+<span style="cursor:default" class="f29" title="count: 1821">in</span>
+<span style="cursor:default" class="f12" title="count: 150">In</span>
+<span style="cursor:default" class="f12" title="count: 164">into</span>
+<span style="cursor:default" class="f19" title="count: 846">is</span>
+<span style="cursor:default" class="f20" title="count: 913">it</span>
+<span style="cursor:default" class="f13" title="count: 230">It</span>
+<span style="cursor:default" class="f13" title="count: 270">its</span>
+<span style="cursor:default" class="f12" title="count: 105">little</span>
+<span style="cursor:default" class="f12" title="count: 107">made</span>
+<span style="cursor:default" class="f12" title="count: 122">may</span>
+<span style="cursor:default" class="f13" title="count: 271">me</span>
+<span style="cursor:default" class="f13" title="count: 212">more</span>
+<span style="cursor:default" class="f12" title="count: 133">most</span>
+<span style="cursor:default" class="f12" title="count: 128">much</span>
+<span style="cursor:default" class="f12" title="count: 115">must</span>
+<span style="cursor:default" class="f15" title="count: 476">my</span>
+<span style="cursor:default" class="f14" title="count: 341">no</span>
+<span style="cursor:default" class="f17" title="count: 592">not</span>
+<span style="cursor:default" class="f12" title="count: 182">now</span>
+<span style="cursor:default" class="f48" title="count: 4319">of</span>
+<span style="cursor:default" class="f13" title="count: 250">on</span>
+<span style="cursor:default" class="f14" title="count: 299">one</span>
+<span style="cursor:default" class="f12" title="count: 154">only</span>
+<span style="cursor:default" class="f15" title="count: 445">or</span>
+<span style="cursor:default" class="f12" title="count: 126">other</span>
+<span style="cursor:default" class="f12" title="count: 138">our</span>
+<span style="cursor:default" class="f12" title="count: 113">out</span>
+<span style="cursor:default" class="f12" title="count: 116">say</span>
+<span style="cursor:default" class="f12" title="count: 119">should</span>
+<span style="cursor:default" class="f14" title="count: 311">so</span>
+<span style="cursor:default" class="f13" title="count: 204">some</span>
+<span style="cursor:default" class="f12" title="count: 133">such</span>
+<span style="cursor:default" class="f13" title="count: 218">than</span>
+<span style="cursor:default" class="f21" title="count: 1011">that</span>
+<span style="cursor:default" class="f15" title="count: 436">The</span>
+<span style="cursor:default" class="f48" title="count: 6726">the</span>
+<span style="cursor:default" class="f12" title="count: 142">their</span>
+<span style="cursor:default" class="f12" title="count: 143">them</span>
+<span style="cursor:default" class="f12" title="count: 105">then</span>
+<span style="cursor:default" class="f12" title="count: 172">there</span>
+<span style="cursor:default" class="f12" title="count: 138">these</span>
+<span style="cursor:default" class="f12" title="count: 100">they</span>
+<span style="cursor:default" class="f12" title="count: 121">This</span>
+<span style="cursor:default" class="f16" title="count: 556">this</span>
+<span style="cursor:default" class="f12" title="count: 102">three</span>
+<span style="cursor:default" class="f12" title="count: 127">time</span>
+<span style="cursor:default" class="f34" title="count: 2295">to</span>
+<span style="cursor:default" class="f12" title="count: 115">two</span>
+<span style="cursor:default" class="f12" title="count: 155">up</span>
+<span style="cursor:default" class="f14" title="count: 355">upon</span>
+<span style="cursor:default" class="f12" title="count: 158">us</span>
+<span style="cursor:default" class="f13" title="count: 233">very</span>
+<span style="cursor:default" class="f21" title="count: 1023">was</span>
+<span style="cursor:default" class="f14" title="count: 383">we</span>
+<span style="cursor:default" class="f12" title="count: 100">We</span>
+<span style="cursor:default" class="f14" title="count: 300">were</span>
+<span style="cursor:default" class="f12" title="count: 182">what</span>
+<span style="cursor:default" class="f12" title="count: 155">when</span>
+<span style="cursor:default" class="f17" title="count: 658">which</span>
+<span style="cursor:default" class="f12" title="count: 127">who</span>
+<span style="cursor:default" class="f13" title="count: 210">will</span>
+<span style="cursor:default" class="f19" title="count: 772">with</span>
+<span style="cursor:default" class="f12" title="count: 110">without</span>
+<span style="cursor:default" class="f13" title="count: 233">would</span>
+<span style="cursor:default" class="f14" title="count: 307">you</span>
+<span style="cursor:default" class="f12" title="count: 153">’</span>
+<span style="cursor:default" class="f15" title="count: 422">”</span>
+</p>
+</div>
+</body>
+</html>

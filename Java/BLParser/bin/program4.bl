@@ -1,0 +1,9 @@
+PROGRAM Test IS
+	INSTRUCTION invalid IS
+		IF this-is-not-a-valid-condition THEN
+			move
+		END IF
+	END invalid
+BEGIN
+	invalid
+END Test
